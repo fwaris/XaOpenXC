@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="XaOpenXC.XaOpenXC">
+	<uses-sdk />
+	<uses-feature android:name="android.hardware.usb.host" android:required="true" />
+	<application android:label="XaOpenXC">
+	</application>
+</manifest>
