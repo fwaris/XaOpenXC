@@ -33,7 +33,7 @@ type MessagesActivity() =
                     while true do
                        try
                             let! (msg:string) = inbox.Receive()
-                            log tag (sprintf "received msg %s" msg)
+                            //log tag (sprintf "received msg %s" msg)
                             do! Async.SwitchToContext uiThreadContext
                             //NOTE: Update the ArrayAdapter on the UI thread only
                             adapter.Add(msg)
